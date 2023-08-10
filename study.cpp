@@ -8,7 +8,6 @@ int main()
 	int start = 0;
 	cout << "############## menu·start ##############" << endl;
 	cout << "start1:结构体冒泡排序" << endl;
-	cout << "start2:通讯录" << endl;
 	cin >> start;
 	switch (start)
 	{
@@ -17,6 +16,10 @@ int main()
 	default:break;
 	}
 	*/
-    
+    //以类定义对象
+	yuan yuan2;
+	//给对象赋值
+	yuan2.r = 10;
+	cout<<yuan2.ZC()<<endl;
     return 0;
 }
